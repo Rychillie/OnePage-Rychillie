@@ -1,9 +1,10 @@
+import Link from "next/link";
 import styles from "../styles/SectionContent.module.css";
 
 export default function sectionContnt() {
   return (
     <section className={styles.container}>
-      <div className={styles.articles}>
+      <div className={styles.listPost}>
         <h3 className={styles.sectionTitle}>
           Ultimos Artigos
           <Link href="/">
