@@ -1,11 +1,29 @@
+:root {
+  --black: #111111;
+  --dark: #171717;
+  --dark-grey: #616161;
+  --grey: #7d7d7d;
+  --light-grey: #9e9e9e;
+  --light: #ece9e4;
+  --white: #ffffff;
+  --light-blue: #b2daff;
+  --blue: #00aaff;
+  --purple: #c34cff;
+  --pink-purple: #e52ee5;
+  --red-pink: #ff4060;
+  --orange: #ff7e44;
+  --yellow: #ffd333;
+  --green: #00e599;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background: #111111;
-  color: #ece9e4;
+  background: var(--black);
+  color: var(--light);
 }
 
 a {

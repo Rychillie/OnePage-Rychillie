@@ -1,23 +1,11 @@
 .container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.header {
-  padding: 5rem 0 0;
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
 .main {
-  padding: 0 0 5rem;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -43,30 +31,6 @@
   align-items: center;
 }
 
-.title a {
-  color: #ff4060;
-  text-decoration: none;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.8rem;
-  font-size: 1.6rem;
-  color: #ece9e4;
-}
-
-.title,
-.description {
-  text-align: center;
-}
-
-.description {
-  line-height: 1.4rem;
-  font-size: 1.2rem;
-  color: #7d7d7d;
-  max-width: 460px;
-}
-
 .code {
   border-radius: 5px;
   padding: 0.75rem;
@@ -81,7 +45,6 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
-  margin-top: 3rem;
 }
 
 .card {
@@ -98,14 +61,14 @@
 .card h3 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
-  color: #ece9e4;
+  color: var(--light);
 }
 
 .card p {
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
-  color: #9e9e9e;
+  color: var(--light-grey);
 }
 
 .logo {
@@ -113,10 +76,6 @@
 }
 
 @media (max-width: 600px) {
-  .header {
-    flex-direction: column;
-  }
-
   .grid {
     width: 100%;
     flex-direction: column;

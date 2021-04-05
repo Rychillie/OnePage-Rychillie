@@ -1,0 +1,71 @@
+.nav {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  background: #111;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.container {
+  max-width: 1000px;
+  padding: 0 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--red-pink);
+  text-decoration: none;
+}
+
+.menu {
+  width: 50px;
+  height: 40px;
+  position: relative;
+  cursor: pointer;
+}
+
+.menu::before,
+.menu::after {
+  content: "";
+  width: 20px;
+  height: 2px;
+  background: var(--light);
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 3px;
+  transition: all 300ms ease-in-out;
+}
+
+.menu::before {
+  top: 15px;
+}
+
+.menu::after {
+  bottom: 15px;
+}
+
+.menu:hover::before {
+  top: 13px;
+}
+
+.menu:hover::after {
+  bottom: 13px;
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    max-width: 1000px;
+    padding: 0 2rem;
+  }
+}
