@@ -1,8 +1,13 @@
 .container {
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 }
 
 .main {
@@ -31,48 +36,47 @@
   align-items: center;
 }
 
-.code {
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-}
-
-.card {
-  margin: 1rem;
-  flex-basis: 45%;
-  padding: 1.6rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  background: rgba(236, 233, 228, 0.08);
-  border-radius: 1.2rem;
-}
-
-.card h3 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-  color: var(--light);
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-  color: var(--light-grey);
-}
-
 .logo {
   height: 1em;
+}
+
+.articles,
+.courses,
+.portfolio {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionTitle {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--light);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  padding-bottom: 18px;
+  border-bottom: 2px solid rgba(236, 233, 228, 0.08);
+}
+
+.sectionTitle a {
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 500;
+  padding: 12px;
+  border-radius: 8px;
+  color: var(--light);
+  background-color: rgba(236, 233, 228, 0.08);
+  transition: all 300ms ease-in-out;
+}
+
+.sectionTitle a:hover {
+  color: var(--red-pink);
+  background-color: rgba(236, 233, 228, 0.12);
 }
 
 @media (max-width: 600px) {

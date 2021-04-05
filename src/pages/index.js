@@ -1,6 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import Image from "next/image";
+import Link from "next/link";
 
 import Header from "../components/header";
 
@@ -19,45 +19,38 @@ export default function Home() {
       </Head>
 
       <Header />
-
-      <div className={styles.container}>
-        <main className={styles.main}>
-          <div className={styles.grid}>
-            <a href="#" className={styles.card}>
-              <h3>Artigos &rarr;</h3>
-              <p>
-                Um espaço onde compartilho escrevo artigos compartilhando
-                conhecimento e opiniões com fins de ajudar.
-              </p>
-            </a>
-
-            <a href="#" className={styles.card}>
-              <h3>Projetos / Portfólio &rarr;</h3>
-              <p>
-                Com muitos anos de pratica vem a experiência, conheça um pouco
-                da minha jornada até aqui.
-              </p>
-            </a>
-
-            <a href="#" className={styles.card}>
-              <h3>Cursos &rarr;</h3>
-              <p>
-                Conteúdo educativo em português que criei com o objetivo de
-                facilitar o acesso a conteúdos técnicos.
-              </p>
-            </a>
-
-            <a href="#" className={styles.card}>
-              <h3>Newsletter &rarr;</h3>
-              <p>
-                Receba um email semanal com todos conteúdos que abordei em
-                minhas redes sociais e meios de comunicação, além de dicas e
-                noticias do mundo da Tecnologia.
-              </p>
-            </a>
+      <main className={styles.main}>
+        <section className={styles.container}>
+          <div className={styles.articles}>
+            <h3 className={styles.sectionTitle}>
+              Ultimos Artigos
+              <Link href="/">
+                <a>Ver todos</a>
+              </Link>
+            </h3>
           </div>
-        </main>
-      </div>
+        </section>
+        <section className={styles.container}>
+          <div className={styles.courses}>
+            <h3 className={styles.sectionTitle}>
+              Cursos
+              <Link href="/">
+                <a>Ver todos</a>
+              </Link>
+            </h3>
+          </div>
+        </section>
+        <section className={styles.container}>
+          <div className={styles.portfolio}>
+            <h3 className={styles.sectionTitle}>
+              Portfólio / Projetos
+              <Link href="/">
+                <a>Ver todos</a>
+              </Link>
+            </h3>
+          </div>
+        </section>
+      </main>
 
       <footer className={styles.footer}>
         <p>® Rychillie 2021</p>

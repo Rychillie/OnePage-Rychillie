@@ -27,6 +27,7 @@
   line-height: 32px;
   color: var(--red-pink);
   text-decoration: none;
+  font-weight: 600;
 }
 
 .menu {
