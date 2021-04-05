@@ -3,9 +3,12 @@
   right: 0;
   left: 0;
   top: 0;
-  background: #111;
+  background: rgba(17, 17, 17, 0.64);
   padding-top: 24px;
   padding-bottom: 24px;
+  z-index: 999;
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid #111;
 }
 
 .container {
