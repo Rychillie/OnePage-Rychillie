@@ -1,45 +1,3 @@
-.container {
-  width: 100%;
-  max-width: 1000px;
-  padding: 0 1.5rem;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.main {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer {
-  width: 100%;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer img {
-  margin-left: 0.5rem;
-}
-
-.footer p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.logo {
-  height: 1em;
-}
-
 .articles,
 .courses,
 .portfolio {
@@ -88,10 +46,5 @@
   .portfolio {
     padding-left: 0;
     padding-right: 0;
-  }
-
-  .grid {
-    width: 100%;
-    flex-direction: column;
   }
 }
