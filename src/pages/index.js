@@ -25,23 +25,34 @@ export default function Home() {
           <div className={styles.grid}>
             <a href="#" className={styles.card}>
               <h3>Artigos &rarr;</h3>
-              <p>Find in-depth information about Next.js features and API.</p>
+              <p>
+                Um espaço onde compartilho escrevo artigos compartilhando
+                conhecimento e opiniões com fins de ajudar.
+              </p>
             </a>
 
             <a href="#" className={styles.card}>
-              <h3>Projetos & Portfólio &rarr;</h3>
-              <p>Learn about Next.js in an interactive course with quizzes!</p>
+              <h3>Projetos / Portfólio &rarr;</h3>
+              <p>
+                Com muitos anos de pratica vem a experiência, conheça um pouco
+                da minha jornada até aqui.
+              </p>
             </a>
 
             <a href="#" className={styles.card}>
               <h3>Cursos &rarr;</h3>
-              <p>Discover and deploy boilerplate example Next.js projects.</p>
+              <p>
+                Conteúdo educativo em português que criei com o objetivo de
+                facilitar o acesso a conteúdos técnicos.
+              </p>
             </a>
 
             <a href="#" className={styles.card}>
               <h3>Newsletter &rarr;</h3>
               <p>
-                Instantly deploy your Next.js site to a public URL with Vercel.
+                Receba um email semanal com todos conteúdos que abordei em
+                minhas redes sociais e meios de comunicação, além de dicas e
+                noticias do mundo da Tecnologia.
               </p>
             </a>
           </div>
