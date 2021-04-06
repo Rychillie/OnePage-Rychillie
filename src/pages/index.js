@@ -21,7 +21,7 @@ export default function Home({ posts, title, description, ...props }) {
         />
       </Head>
 
-      <Header />
+      <Header hasProfile />
       <main className={styles.main}>
         <Section posts={posts} params={props.blogCategory} />
       </main>
