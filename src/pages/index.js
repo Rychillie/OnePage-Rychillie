@@ -5,7 +5,9 @@ import Link from "next/link";
 import Header from "../components/header";
 import Section from "../components/sectionContent";
 
-export default function Home(props) {
+import getPosts from "../utils/getPosts";
+
+export default function Home({ posts, title, description, ...props }) {
   return (
     <div>
       <Head>
@@ -21,7 +23,7 @@ export default function Home(props) {
 
       <Header />
       <main className={styles.main}>
-        <Section params={props.blogCategory} />
+        <Section posts={posts} params={props.blogCategory} />
       </main>
 
       <footer className={styles.footer}>
@@ -31,8 +33,18 @@ export default function Home(props) {
   );
 }
 
-Home.getInitialProps = () => {
+export async function getStaticProps() {
+  const configData = await import(`../../siteconfig.json`);
+
+  const posts = ((context) => {
+    return getPosts(context);
+  })(require.context("../../content", true, /\.md$/));
+
   return {
-    blogCategory: "Artigos",
+    props: {
+      posts,
+      title: configData.default.title,
+      description: configData.default.description,
+    },
   };
-};
+}
