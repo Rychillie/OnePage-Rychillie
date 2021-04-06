@@ -3,11 +3,13 @@ import Link from "next/link";
 import styles from "../styles/SectionContent.module.css";
 
 export default function sectionContent(props) {
+  const blogCategory = props.params;
+
   return (
     <section className={styles.container}>
       <div className={styles.listPost}>
         <h3 className={styles.sectionTitle}>
-          Ultimos {props.blogCategory}
+          Ultimos {blogCategory}
           <Link href="/">
             <a>Ver todos</a>
           </Link>
@@ -16,9 +18,3 @@ export default function sectionContent(props) {
     </section>
   );
 }
-
-sectionContent.getInitialProps = () => {
-  return {
-    blogCategory: "Artigos",
-  };
-};

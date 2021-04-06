@@ -5,7 +5,7 @@ import Link from "next/link";
 import Header from "../components/header";
 import Section from "../components/sectionContent";
 
-export default function Home() {
+export default function Home(props) {
   return (
     <div>
       <Head>
@@ -21,7 +21,7 @@ export default function Home() {
 
       <Header />
       <main className={styles.main}>
-        <Section />
+        <Section params={props.blogCategory} />
       </main>
 
       <footer className={styles.footer}>
@@ -30,3 +30,9 @@ export default function Home() {
     </div>
   );
 }
+
+Home.getInitialProps = () => {
+  return {
+    blogCategory: "Artigos",
+  };
+};
