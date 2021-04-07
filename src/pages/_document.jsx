@@ -4,7 +4,9 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="pt-br">
-        <Head></Head>
+        <Head>
+          <link rel="shortcut icon" href="/ok_rychillie.png" />
+        </Head>
         <body>
           <Main />
           <NextScript />

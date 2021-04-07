@@ -28,15 +28,20 @@ export default function sectionContent({ posts }) {
             newPostList.slice(0, 5).map((post) => {
               return (
                 <li key={post.slug}>
-                  {/* toISOString */}
-                  {new Date(post.frontmatter.date).toLocaleString("pt-BR", {
-                    day: "2-digit",
-                    month: "short",
-                    timeZone: "UTC",
-                  })}
-                  {` `}
                   <Link href={{ pathname: `/${post.slug}` }}>
-                    <a>{post?.frontmatter?.title}</a>
+                    <a>
+                      <span>
+                        {new Date(post.frontmatter.date).toLocaleString(
+                          "pt-BR",
+                          {
+                            day: "2-digit",
+                            month: "short",
+                            timeZone: "UTC",
+                          }
+                        )}
+                      </span>
+                      {post?.frontmatter?.title}
+                    </a>
                   </Link>
                 </li>
               );

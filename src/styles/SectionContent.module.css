@@ -19,6 +19,46 @@
   padding-top: 1.6rem;
 }
 
+.listPost ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.listPost ul li {
+}
+
+.listPost ul li a {
+  display: block;
+  background-color: transparent;
+  transition: all 300ms ease-in-out;
+  position: relative;
+  margin-bottom: 48px;
+  flex: 1;
+}
+
+.listPost ul li a span {
+  width: 10%;
+  margin-right: 24px;
+}
+
+.listPost ul li a:before {
+  content: "";
+  top: 50%;
+  left: 50%;
+  display: block;
+  position: absolute;
+  border-radius: 12px;
+  width: calc(100% + 32px);
+  height: calc(100% + 32px);
+  background-color: transparent;
+  transform: translate(-50%, -50%);
+  transition: all 300ms ease-in-out;
+}
+
+.listPost ul li a:hover:before {
+  background-color: rgba(236, 233, 228, 0.04);
+}
+
 .sectionTitle {
   width: 100%;
   display: flex;
