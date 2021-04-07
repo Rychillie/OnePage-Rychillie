@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 import Link from "next/link";
 
 import Header from "../components/header";
+import Footer from "../components/footer";
 import Section from "../components/sectionContent";
 
 import getPosts from "../utils/getPosts";
@@ -22,13 +23,12 @@ export default function Home({ posts, title, description, ...props }) {
       </Head>
 
       <Header hasProfile />
+
       <main className={styles.main}>
         <Section posts={posts} params={props.blogCategory} />
       </main>
 
-      <footer className={styles.footer}>
-        <p>® Rychillie 2021</p>
-      </footer>
+      <Footer />
     </div>
   );
 }

@@ -26,6 +26,7 @@ export async function getStaticProps({ ...ctx }) {
   const { postname } = ctx.params;
 
   const content = await import(`../../content/${postname}.md`);
+  console.log(content);
   const config = await import(`../../siteconfig.json`);
   const data = matter(content.default);
 

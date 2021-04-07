@@ -6,6 +6,13 @@ export default function sectionContent({ posts }) {
   if (posts === "undefined") return null;
   // const blogCategory = props.params;
 
+  const postList = posts;
+
+  const newPostList = postList.sort(
+    (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
+  );
+  console.log(newPostList);
+
   return (
     <section className={styles.container}>
       <div className={styles.listPost}>
@@ -16,13 +23,18 @@ export default function sectionContent({ posts }) {
           </Link>
         </h3>
 
-        {!posts && <div>No posts!</div>}
+        {!newPostList && <div>No posts!</div>}
         <ul>
-          {posts &&
-            posts.map((post) => {
+          {newPostList &&
+            newPostList.map((post) => {
               return (
                 <li key={post.slug}>
-                  {post.frontmatter.date}: {` `}
+                  {/* toISOString */}
+                  {new Date(post.frontmatter.date).toLocaleString("pt-BR", {
+                    day: "numeric",
+                    month: "short",
+                  })}
+                  : {` `}
                   <Link href={{ pathname: `/${post.slug}` }}>
                     <a>{post?.frontmatter?.title}</a>
                   </Link>
