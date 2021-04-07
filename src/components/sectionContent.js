@@ -14,12 +14,13 @@ export default function sectionContent({ posts }) {
   return (
     <section className={styles.container}>
       <div className={styles.listPost}>
-        <h3 className={styles.sectionTitle}>
-          Ultimos artigos
+        <div className={styles.sectionTitle}>
+          <h3>Ultimos artigos</h3>
+
           <Link href="/">
             <a>Ver todos</a>
           </Link>
-        </h3>
+        </div>
 
         {!newPostList && <div>No posts!</div>}
         <ul>
