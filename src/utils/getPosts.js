@@ -1,5 +1,4 @@
 import matter from "gray-matter";
-import { DateTime } from "luxon";
 
 const getPosts = (context) => {
   const keys = context.keys();

@@ -4,7 +4,6 @@ import styles from "../styles/SectionContent.module.css";
 
 export default function sectionContent({ posts }) {
   if (posts === "undefined") return null;
-  // const blogCategory = props.params;
 
   const postList = posts;
 
