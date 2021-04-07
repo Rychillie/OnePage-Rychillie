@@ -25,7 +25,7 @@ export default function sectionContent({ posts }) {
         {!newPostList && <div>No posts!</div>}
         <ul>
           {newPostList &&
-            newPostList.map((post) => {
+            newPostList.slice(0, 5).map((post) => {
               return (
                 <li key={post.slug}>
                   {/* toISOString */}
