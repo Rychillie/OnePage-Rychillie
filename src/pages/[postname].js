@@ -9,9 +9,6 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
 
   return (
     <Layout pageTitle={`${siteTitle} | ${frontmatter.title}`}>
-      <Link href="/">
-        <a>Back to post list</a>
-      </Link>
       <article>
         <h1>{frontmatter.title}</h1>
         <div>
@@ -25,7 +22,7 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
 export async function getStaticProps({ ...ctx }) {
   const { postname } = ctx.params;
 
-  const content = await import(`../../content/${postname}.md`);
+  const content = await import(`../../content/blog/${postname}.md`);
   const config = await import(`../../siteconfig.json`);
   const data = matter(content.default);
 

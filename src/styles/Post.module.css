@@ -1,0 +1,14 @@
+.container {
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+}

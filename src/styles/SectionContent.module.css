@@ -31,13 +31,17 @@
 }
 
 .listPost ul li a {
-  display: block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   background-color: transparent;
   transition: all 300ms ease-in-out;
   position: relative;
-  font-weight: bold;
+  font-weight: 600;
   padding-bottom: 16px;
   padding-top: 16px;
+  line-height: 24px;
+  font-size: 18px;
   flex: 1;
 }
 
@@ -46,6 +50,7 @@
   color: var(--light-grey);
   font-weight: 400;
   font-size: 92%;
+  min-width: fit-content;
 }
 
 .listPost ul li a:before {
@@ -114,6 +119,8 @@
   }
 
   .listPost ul li a {
+    font-size: 16px;
+    line-height: 20px;
     padding-bottom: 24px;
     padding-top: 24px;
     border-bottom: 2px solid rgba(236, 233, 228, 0.04);

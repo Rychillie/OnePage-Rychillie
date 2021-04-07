@@ -37,7 +37,7 @@ export default function Header(props) {
   }
 
   return (
-    <header className={styles.header}>
+    <header className={styles.headerNav}>
       <Nav />
     </header>
   );
