@@ -11,7 +11,6 @@ export default function sectionContent({ posts }) {
   const newPostList = postList.sort(
     (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
   );
-  console.log(newPostList);
 
   return (
     <section className={styles.container}>
