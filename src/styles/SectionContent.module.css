@@ -30,6 +30,10 @@
   margin-bottom: 12px;
 }
 
+.listPost ul li:last-child {
+  margin-bottom: 24px;
+}
+
 .listPost ul li a {
   display: flex;
   flex-direction: row;
@@ -51,6 +55,7 @@
   font-weight: 400;
   font-size: 92%;
   min-width: fit-content;
+  flex: 0 0 80px;
 }
 
 .listPost ul li a:before {
@@ -118,12 +123,20 @@
     margin-bottom: 0;
   }
 
+  .listPost ul li:last-child {
+    margin-bottom: 16px;
+  }
+
   .listPost ul li a {
     font-size: 16px;
     line-height: 20px;
     padding-bottom: 24px;
     padding-top: 24px;
     border-bottom: 2px solid rgba(236, 233, 228, 0.04);
+  }
+
+  .listPost ul li:last-child a {
+    border-bottom: none;
   }
 
   .listPost ul li a:before {
