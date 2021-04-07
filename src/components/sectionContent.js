@@ -31,10 +31,11 @@ export default function sectionContent({ posts }) {
                 <li key={post.slug}>
                   {/* toISOString */}
                   {new Date(post.frontmatter.date).toLocaleString("pt-BR", {
-                    day: "numeric",
+                    day: "2-digit",
                     month: "short",
+                    timeZone: "UTC",
                   })}
-                  : {` `}
+                  {` `}
                   <Link href={{ pathname: `/${post.slug}` }}>
                     <a>{post?.frontmatter?.title}</a>
                   </Link>
