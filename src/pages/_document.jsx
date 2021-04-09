@@ -6,6 +6,12 @@ class MyDocument extends Document {
       <Html lang="pt-br">
         <Head>
           <link rel="shortcut icon" href="/ok_rychillie.png" />
+
+          <meta
+            name="monetization"
+            content="$ilp.uphold.com/AJqZewhyjnMZ"
+          ></meta>
+
           <script
             async
             src="https://www.googletagmanager.com/gtag/js?id=UA-45575876-4"
