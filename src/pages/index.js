@@ -26,8 +26,6 @@ export default function Home({ posts, title, description, ...props }) {
 
       <main className={styles.main}>
         <Section posts={posts} params={props.blogCategory} />
-        <Section posts={posts} params={props.blogCategory} />
-        <Section posts={posts} params={props.blogCategory} />
       </main>
 
       <Footer />
