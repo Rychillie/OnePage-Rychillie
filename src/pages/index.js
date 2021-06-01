@@ -7,7 +7,13 @@ import Header from "../components/header";
 
 import getPosts from "../utils/getPosts";
 
-export default function Home({ posts, title, description, ...props }) {
+export default function Home({
+  posts,
+  title,
+  description,
+  manutencao = true,
+  ...props
+}) {
   return (
     <div className={styles.index}>
       <Head>
@@ -21,9 +27,15 @@ export default function Home({ posts, title, description, ...props }) {
         />
       </Head>
 
-      <Header />
+      {manutencao ? (
+        <Header props={manutencao} />
+      ) : (
+        <>
+          <Header />
 
-      <main></main>
+          <main></main>
+        </>
+      )}
     </div>
   );
 }

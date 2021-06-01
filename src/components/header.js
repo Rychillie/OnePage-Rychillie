@@ -1,9 +1,15 @@
 import styles from "../styles/Header.module.css";
 import Image from "next/image";
 
-export default function Header(props) {
+export default function Header(manutencao, props) {
   return (
-    <header className={styles.apresentation}>
+    <header
+      className={`${
+        manutencao
+          ? `${styles.apresentation} ${styles.center}`
+          : styles.apresentation
+      }`}
+    >
       <div>
         <div className={styles.profile}>
           <Image

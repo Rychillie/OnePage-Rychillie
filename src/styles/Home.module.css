@@ -1,6 +1,7 @@
 .index {
   height: 100%;
   height: stretch;
+  grid-template-columns: 48vw 60vw;
 }
 
 @media (max-width: 600px) {
