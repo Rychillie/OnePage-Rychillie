@@ -1,55 +1,68 @@
-.header {
-  padding: 8rem 24px 4rem;
-  flex: 1;
+.apresentation {
+  width: 48vw;
+  height: 100%;
+  height: stretch;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-}
-
-.headerNav {
-  padding-bottom: 96px;
-  flex: 1;
-  display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-items: center;
 }
 
-.title {
-  margin: 0;
-  line-height: 1.8rem;
-  font-size: 1.6rem;
-  color: var(--light);
-  font-weight: 400;
-}
-
-.title a {
-  color: var(--red-pink);
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.title,
-.description {
-  text-align: left;
-}
-
-.description {
-  line-height: 1.4rem;
-  font-size: 1.2rem;
-  color: var(--grey);
+.apresentation .about {
   max-width: 460px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.apresentation .profile {
+  max-width: 220px;
+  max-height: 220px;
+  margin-right: auto;
+  position: relative;
+  margin-bottom: 32px;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+}
+
+.apresentation .profile img {
+  border-radius: 76px;
+}
+
+.apresentation .profile .shadow {
+  max-width: 176px;
+  max-height: 176px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+  filter: blur(32px);
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.apresentation .about h1 {
+  color: var(--white);
+  font-size: 64px;
+  line-height: 72px;
+  font-family: "GT Walsheim Pro";
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.apresentation .about h1 span {
+  color: var(--red-pink);
+}
+
+.apresentation .about p {
+  color: var(--light-grey);
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Moderat";
+  font-weight: bold;
 }
 
 @media (max-width: 600px) {
-  .header {
-    padding: 5rem 24px 0;
-    flex-direction: column;
-  }
-
-  .title,
-  .description {
-    text-align: center;
-  }
 }

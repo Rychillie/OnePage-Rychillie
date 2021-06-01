@@ -1,6 +1,4 @@
 import Head from "next/head";
-import Header from "./header";
-import Footer from "./footer";
 import styles from "../styles/Post.module.css";
 
 export default function Layout({ children, pageTitle, ...props }) {
@@ -11,15 +9,11 @@ export default function Layout({ children, pageTitle, ...props }) {
         <title>{pageTitle}</title>
       </Head>
 
-      <Header />
-
       <main className={styles.main}>
         <div className={styles.container}>
           <div className={styles.content}>{children}</div>
         </div>
       </main>
-
-      <Footer />
     </>
   );
 }

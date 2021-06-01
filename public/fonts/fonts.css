@@ -1,0 +1,26 @@
+/* Moderat */
+@font-face {
+  font-family: "Moderat";
+  src: url("./Moderat/Moderat-Bold.eot");
+  src: local("Moderat Bold"), local("Moderat-Bold"),
+    url("./Moderat/Moderat-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./Moderat/Moderat-Bold.woff2") format("woff2"),
+    url("./Moderat/Moderat-Bold.woff") format("woff"),
+    url("./Moderat/Moderat-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* GT Walsheim Pro */
+@font-face {
+  font-family: "GT Walsheim Pro";
+  src: url("./GTWalsheimPro/GTWalsheimPro-Bold.eot");
+  src: local("GT Walsheim Pro Bold"), local("GTWalsheimPro-Bold"),
+    url("./GTWalsheimPro/GTWalsheimPro-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./GTWalsheimPro/GTWalsheimPro-Bold.woff2") format("woff2"),
+    url("./GTWalsheimPro/GTWalsheimPro-Bold.woff") format("woff"),
+    url("./GTWalsheimPro/GTWalsheimPro-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}

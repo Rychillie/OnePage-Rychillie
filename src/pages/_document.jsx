@@ -17,6 +17,8 @@ class MyDocument extends Document {
             src="https://www.googletagmanager.com/gtag/js?id=UA-45575876-4"
           />
 
+          <link rel="stylesheet" href="/fonts/fonts.css" />
+
           <script
             dangerouslySetInnerHTML={{
               __html: `

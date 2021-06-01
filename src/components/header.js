@@ -1,44 +1,43 @@
 import styles from "../styles/Header.module.css";
 import Image from "next/image";
 
-import Nav from "./navbar";
-
 export default function Header(props) {
-  const hasProfile = props.hasProfile;
-
-  if (hasProfile) {
-    return (
-      <header className={styles.header}>
-        <Nav />
-
-        <div>
+  return (
+    <header className={styles.apresentation}>
+      <div>
+        <div className={styles.profile}>
           <Image
-            src="/ok_rychillie.png"
-            alt="Emoji Rychillie com sinal de Ok"
-            layout="intrinsic"
-            loading="eager"
-            quality={100}
-            width="192"
-            height="192"
+            src="/rychillie.png"
+            alt="Rychillie Umpierre de Oliveira"
+            width={220}
+            height={220}
+            loading="lazy"
+            layout="responsive"
           />
+          <div className={styles.shadow}>
+            <Image
+              src="/rychillie.png"
+              alt="Rychillie Umpierre de Oliveira"
+              width={220}
+              height={220}
+              loading="lazy"
+              layout="responsive"
+            />
+          </div>
         </div>
-
-        <div>
-          <h1 className={styles.title}>
-            Olá 👋, Eu sou <a href="#">Rychillie</a>
+        <div className={styles.about}>
+          <h1>
+            Olá 👋, eu sou <span>Rychillie</span>
           </h1>
-          <p className={styles.description}>
-            Criador de conteúdo, UI Designer e Desenvolvedor FrontEnd. Sempre
-            aprendendo e compartilhando conhecimento
+          <p>
+            Desenvolvedor Frontend, estudante de UI/UX Design e criador de
+            conteúdo compartilhando seu conhecimento de forma totalmente
+            gratuita, com o intuito de ajudar a comunidade, ao mesmo tempo
+            trabalhando em projetos OpenSource que ajudem no caminho dessa
+            comunidade maravilhosa!
           </p>
         </div>
-      </header>
-    );
-  }
-
-  return (
-    <header className={styles.headerNav}>
-      <Nav />
+      </div>
     </header>
   );
 }
