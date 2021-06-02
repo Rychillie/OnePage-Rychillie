@@ -4,8 +4,9 @@ import Link from "next/link";
 
 import Header from "../components/header";
 // import Section from "../components/sectionContent";
-
 import getPosts from "../utils/getPosts";
+
+import CardPost from "../components/cardpost";
 
 export default function Home({
   posts,
@@ -26,16 +27,37 @@ export default function Home({
           content="Criador de conteúdo, UI Designer e Desenvolvedor FrontEnd. Sempre aprendendo e compartilhando conhecimento"
         />
       </Head>
+      <div
+        className={`${
+          manutencao ? `${styles.homepage} ${styles.center}` : styles.homepage
+        }`}
+      >
+        {manutencao ? (
+          <Header manutencao />
+        ) : (
+          <>
+            <Header manutencao={false} />
 
-      {manutencao ? (
-        <Header props={manutencao} />
-      ) : (
-        <>
-          <Header />
-
-          <main></main>
-        </>
-      )}
+            <main className={styles.main}>
+              <div className={styles.content}>
+                <CardPost type="youtube" />
+                <CardPost type="medium" />
+                <CardPost type="instagram" />
+                <CardPost type="youtube" />
+                <CardPost type="instagram" />
+                <CardPost type="medium" />
+                <CardPost type="instagram" />
+                <CardPost type="youtube" />
+                <CardPost type="youtube" />
+                <CardPost type="instagram" />
+                <CardPost type="medium" />
+                <CardPost type="instagram" />
+                <CardPost type="youtube" />
+              </div>
+            </main>
+          </>
+        )}
+      </div>
     </div>
   );
 }

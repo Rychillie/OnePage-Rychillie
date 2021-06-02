@@ -1,7 +1,7 @@
 import styles from "../styles/Header.module.css";
 import Image from "next/image";
 
-export default function Header(manutencao, props) {
+export default function Header({ manutencao, props }) {
   return (
     <header
       className={`${
@@ -10,7 +10,7 @@ export default function Header(manutencao, props) {
           : styles.apresentation
       }`}
     >
-      <div>
+      <div className={styles.containerHeader}>
         <div className={styles.profile}>
           <Image
             src="/rychillie.png"
@@ -37,10 +37,7 @@ export default function Header(manutencao, props) {
           </h1>
           <p>
             Desenvolvedor Frontend, estudante de UI/UX Design e criador de
-            conteúdo compartilhando seu conhecimento de forma totalmente
-            gratuita, com o intuito de ajudar a comunidade, ao mesmo tempo
-            trabalhando em projetos OpenSource que ajudem no caminho dessa
-            comunidade maravilhosa!
+            conteúdo, compartilhando seu conhecimento com a comunidade.
           </p>
         </div>
       </div>

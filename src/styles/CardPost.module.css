@@ -1,0 +1,60 @@
+.containerCard {
+  max-width: 640px;
+  padding: 24px 32px;
+  background: var(--dark);
+  margin-bottom: 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+.infoCard {
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.categoryCard,
+.dateCard {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Moderat;
+  margin-bottom: 4px;
+  color: var(--light-grey);
+}
+
+.categoryCard {
+  margin-right: 4px;
+}
+
+.dateCard {
+  margin-left: 4px;
+}
+
+.titleCard {
+  font-size: 24px;
+  line-height: 32px;
+  font-family: GT Walsheim Pro;
+}
+
+.containerCard .imageType,
+.containerCard .imageType.youtube {
+  position: absolute;
+  background: url("/post-icons.png");
+  background-position: 0 0;
+  width: 178px;
+  height: 178px;
+  bottom: -47px;
+  right: -30px;
+}
+
+.containerCard .imageType.instagram {
+  background-position: -178px 0;
+}
+
+.containerCard .imageType.medium {
+  background-position: -356px 0;
+}
+
+@media (max-width: 960px) {
+}

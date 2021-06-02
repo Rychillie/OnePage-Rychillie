@@ -1,8 +1,67 @@
 .index {
   height: 100%;
   height: stretch;
-  grid-template-columns: 48vw 60vw;
+  overflow: hidden;
 }
 
-@media (max-width: 600px) {
+.homepage {
+  display: grid;
+  height: 100%;
+  height: stretch;
+  grid-template-columns: 48% 52%;
+  grid-template-rows: 100%;
+  overflow: hidden;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.homepage.center {
+  grid-template-columns: 1fr;
+}
+
+.main {
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.content {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  padding-left: 24px;
+  padding-right: 24px;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: fit-content;
+}
+
+@media (max-width: 960px) {
+  .homepage.center {
+    height: 100%;
+    height: stretch;
+  }
+
+  .homepage {
+    grid-template-columns: unset;
+    grid-template-rows: unset;
+    height: auto;
+    overflow: auto;
+  }
+
+  .index {
+    overflow: auto;
+  }
+
+  .main {
+    width: 100%;
+    overflow-x: auto;
+    height: fit-content;
+  }
+
+  .content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
 }
