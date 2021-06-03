@@ -12,7 +12,7 @@ export default function Home({
   posts,
   title,
   description,
-  manutencao = true,
+  manutencao = false,
   ...props
 }) {
   return (
