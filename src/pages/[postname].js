@@ -2,8 +2,6 @@ import Link from "next/link";
 import matter from "gray-matter";
 import ReactMarkdown from "react-markdown";
 
-import styles from "../styles/Post.module.css";
-
 import Layout from "../components/layout";
 
 export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
@@ -11,7 +9,7 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
 
   return (
     <Layout pageTitle={`${siteTitle} | ${frontmatter.title}`}>
-      <article className={styles.content}>
+      <article>
         <h1>{frontmatter.title}</h1>
         <div>
           <ReactMarkdown source={markdownBody} />

@@ -5,6 +5,13 @@
   margin-bottom: 16px;
   position: relative;
   overflow: hidden;
+  border-radius: 8px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.containerCard:hover {
+  opacity: 0.8;
 }
 
 .infoCard {
@@ -57,4 +64,23 @@
 }
 
 @media (max-width: 960px) {
+  .infoCard,
+  .categoryCard,
+  .dateCard {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .categoryCard {
+    margin-right: 4px;
+  }
+
+  .dateCard {
+    margin-left: 4px;
+  }
+
+  .titleCard {
+    font-size: 18px;
+    line-height: 26px;
+  }
 }
