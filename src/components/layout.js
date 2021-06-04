@@ -1,4 +1,5 @@
 import Head from "next/head";
+import styles from "../styles/Post.module.css";
 
 export default function Layout({ children, pageTitle, ...props }) {
   return (
