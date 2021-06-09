@@ -1,17 +1,14 @@
 import styles from "../styles/CardPost.module.css";
 import Image from "next/image";
 
-export default function CardPost({ type }) {
+export default function CardPost({ postDate, title, type, category }) {
   return (
     <div className={styles.containerCard}>
       <div className={styles.infoCard}>
-        <span className={styles.categoryCard}>Lorem ipsum</span> •{" "}
-        <span className={styles.dateCard}>03/10/1996</span>
+        <span className={styles.categoryCard}>{category}</span> •{" "}
+        <span className={styles.dateCard}>{postDate}</span>
       </div>
-      <h3 className={styles.titleCard}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
-        purus sit
-      </h3>
+      <h3 className={styles.titleCard}>{title}</h3>
       <span className={`${styles.imageType} ${styles[type]}`} />
     </div>
   );

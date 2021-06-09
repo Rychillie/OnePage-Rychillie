@@ -1,7 +1,8 @@
 ---
 title: "Intelligentsia DIY iPhone YOLO offal, retro etsy subway tile +1 prism sriracha air plant photo booth."
 date: "2020-01-11"
-category: "blog"
+category: "dica"
+type: "instagram"
 description: "I'm baby mumblecore green juice chambray cliche cred lyft, jean shorts la croix ugh unicorn art party."
 ---
 

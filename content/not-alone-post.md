@@ -1,7 +1,8 @@
 ---
 title: "I'm baby mumblecore green juice chambray cliche cred lyft, jean shorts la croix ugh unicorn art party."
 date: "2020-01-13"
-category: "blog"
+category: "tutorial"
+type: "youtube"
 description: "Fixie next level prism gluten-free brunch PBR&B church-key cray tumblr try-hard butcher."
 ---
 

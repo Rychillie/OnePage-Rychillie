@@ -1,0 +1,45 @@
+.navBar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: rgba(22, 22, 22, 0.12);
+  backdrop-filter: blur(24px);
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  padding: 32px 24px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title h1 {
+  font-size: 36px;
+  line-height: 40px;
+  font-family: GT Walsheim Pro;
+  color: var(--red-pink);
+}
+
+.navLinks {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+}
+
+.navLinks li a {
+  color: var(--light);
+  font-size: 20px;
+  line-height: 26px;
+  padding: 8px 12px;
+  font-family: Moderat;
+}
+
+.navLinks li a:hover {
+  color: var(--light-grey);
+}

@@ -1,7 +1,8 @@
 ---
 title: "Keffiyeh lumbersexual selvage, succulents snackwave PBR&B farm-to-table banh mi brunch readymade."
 date: "2020-01-09"
-category: "blog"
+category: "dica"
+type: "instagram"
 description: "Cliche squid twee authentic. Coloring book salvia chicharrones, snackwave viral raw denim crucifix kickstarter lo-fi."
 ---
 

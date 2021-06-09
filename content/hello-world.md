@@ -1,7 +1,8 @@
 ---
 title: "Cliche squid twee authentic. Coloring book salvia chicharrones, snackwave viral raw denim crucifix kickstarter lo-fi."
 date: "2020-01-07"
-category: "portfolio"
+category: "analise"
+type: "youtube"
 description: "Keffiyeh lumbersexual selvage, succulents snackwave PBR&B farm-to-table banh mi brunch readymade."
 ---
 

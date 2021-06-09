@@ -3,16 +3,14 @@ import styles from "../styles/Home.module.css";
 import Link from "next/link";
 
 import Header from "../components/header";
-// import Section from "../components/sectionContent";
+import PostList from "../components/postList";
 import getPosts from "../utils/getPosts";
-
-import CardPost from "../components/cardpost";
 
 export default function Home({
   posts,
   title,
   description,
-  manutencao = true,
+  manutencao = false,
   ...props
 }) {
   return (
@@ -39,21 +37,7 @@ export default function Home({
             <Header manutencao={false} />
 
             <main className={styles.main}>
-              <div className={styles.content}>
-                <CardPost type="youtube" />
-                <CardPost type="medium" />
-                <CardPost type="instagram" />
-                <CardPost type="youtube" />
-                <CardPost type="instagram" />
-                <CardPost type="medium" />
-                <CardPost type="instagram" />
-                <CardPost type="youtube" />
-                <CardPost type="youtube" />
-                <CardPost type="instagram" />
-                <CardPost type="medium" />
-                <CardPost type="instagram" />
-                <CardPost type="youtube" />
-              </div>
+              <PostList posts={posts} />
             </main>
           </>
         )}

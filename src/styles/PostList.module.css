@@ -1,0 +1,17 @@
+.content {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  padding-left: 24px;
+  padding-right: 24px;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: fit-content;
+}
+
+@media (max-width: 960px) {
+  .content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}

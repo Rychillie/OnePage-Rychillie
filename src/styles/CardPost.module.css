@@ -64,6 +64,10 @@
 }
 
 @media (max-width: 960px) {
+  .containerCard {
+    padding: 24px;
+  }
+
   .infoCard,
   .categoryCard,
   .dateCard {
