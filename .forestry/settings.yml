@@ -12,8 +12,8 @@ sections:
   new_doc_ext: md
   templates:
   - post
-upload_dir: "./public/postimages"
-public_path: "/postimages"
+upload_dir: public/postimages
+public_path: postimages
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
