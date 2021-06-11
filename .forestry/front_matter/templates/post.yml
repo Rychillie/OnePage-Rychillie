@@ -4,16 +4,26 @@ hide_body: false
 fields:
 - type: textarea
   name: title
-  label: title
+  label: Title
+  config:
+    required: true
 - type: datetime
   name: date
-  label: date
+  label: Date
+  config:
+    required: true
 - type: text
   name: category
-  label: category
+  label: Category
+  config:
+    required: true
 - type: text
   name: type
-  label: type
+  label: Type
+  config:
+    required: true
 - type: text
   name: description
-  label: description
+  label: Description
+  config:
+    required: true
