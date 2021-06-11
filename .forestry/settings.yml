@@ -9,7 +9,7 @@ sections:
   label: Content
   create: documents
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 upload_dir: "./public/postimages"
 public_path: "/postimages"
 front_matter_path: ''

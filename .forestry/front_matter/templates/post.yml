@@ -17,5 +17,3 @@ fields:
 - type: text
   name: description
   label: description
-pages:
-- "./content/content/teste.md"
