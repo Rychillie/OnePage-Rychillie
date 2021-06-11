@@ -16,22 +16,25 @@ export default function PostList({ posts }) {
   return (
     <div className={styles.content}>
       {!newPostList && <div>No posts!</div>}
-      <ul>
+      <div>
         {newPostList &&
           newPostList.map((post) => {
             // newPostList.slice(0, 5).map((post) => {
+            console.log(post.frontmatter.date);
             return (
-              <Link href={{ pathname: `/${post.slug}` }}>
+              <Link
+                href={{ pathname: `/${post.slug}` }}
+                key={post?.frontmatter.title}
+              >
                 <a>
                   <CardPost
-                    postDate={new Date(post.frontmatter.date).toLocaleString(
-                      "pt-BR",
-                      {
-                        day: "2-digit",
-                        month: "short",
-                        timeZone: "UTC",
-                      }
-                    )}
+                    postDate={new Date(
+                      post.frontmatter.date instanceof Date
+                    ).toLocaleString("pt-BR", {
+                      day: "2-digit",
+                      month: "short",
+                      timeZone: "UTC",
+                    })}
                     title={post?.frontmatter?.title}
                     type={post?.frontmatter?.type}
                     category={post?.frontmatter?.category}
@@ -40,7 +43,7 @@ export default function PostList({ posts }) {
               </Link>
             );
           })}
-      </ul>
+      </div>
     </div>
   );
 }

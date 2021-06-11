@@ -1,9 +1,9 @@
 ---
-title: "I'm baby mumblecore green juice chambray cliche cred lyft, jean shorts la croix ugh unicorn art party."
-date: "2020-01-12"
-category: "artigo"
-type: "medium"
-description: "Intelligentsia DIY iPhone YOLO offal, retro etsy subway tile +1 prism sriracha air plant photo booth."
+title: I'm baby mumblecore green juice chambray cliche cred lyft, jean shorts la croix ugh unicorn art party.
+date: 2020-01-12
+category: artigo
+type: medium
+description: Intelligentsia DIY iPhone YOLO offal, retro etsy subway tile +1 prism sriracha air plant photo booth.
 ---
 
 I'm baby mumblecore green juice chambray cliche cred lyft, jean shorts la croix ugh unicorn art party. Viral sustainable fingerstache echo park kogi taiyaki marfa chartreuse vinyl hell of air plant. XOXO enamel pin unicorn, la croix PBR&B tbh flexitarian everyday carry tattooed fanny pack truffaut four loko affogato. Meggings paleo chia, normcore polaroid shoreditch semiotics bespoke heirloom cronut chicharrones kitsch tousled.

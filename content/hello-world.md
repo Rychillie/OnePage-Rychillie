@@ -1,9 +1,9 @@
 ---
-title: "Cliche squid twee authentic. Coloring book salvia chicharrones, snackwave viral raw denim crucifix kickstarter lo-fi."
-date: "2020-01-07"
-category: "analise"
-type: "youtube"
-description: "Keffiyeh lumbersexual selvage, succulents snackwave PBR&B farm-to-table banh mi brunch readymade."
+title: Cliche squid twee authentic. Coloring book salvia chicharrones, snackwave viral raw denim crucifix kickstarter lo-fi.
+date: 2020-01-07
+category: analise
+type: youtube
+description: Keffiyeh lumbersexual selvage, succulents snackwave PBR&B farm-to-table banh mi brunch readymade.
 ---
 
 I'm baby mumblecore green juice chambray cliche cred lyft, jean shorts la croix ugh unicorn art party. Viral sustainable fingerstache echo park kogi taiyaki marfa chartreuse vinyl hell of air plant. XOXO enamel pin unicorn, la croix PBR&B tbh flexitarian everyday carry tattooed fanny pack truffaut four loko affogato. Meggings paleo chia, normcore polaroid shoreditch semiotics bespoke heirloom cronut chicharrones kitsch tousled.

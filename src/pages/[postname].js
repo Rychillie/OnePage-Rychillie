@@ -27,10 +27,17 @@ export async function getStaticProps({ ...ctx }) {
   const config = await import(`../../siteconfig.json`);
   const data = matter(content.default);
 
+  const title = data.data.title;
+  const date = JSON.stringify(data.data.date);
+  const category = data.data.category;
+  const type = data.data.type;
+  const description = data.data.description;
+
   return {
     props: {
       siteTitle: config.title,
-      frontmatter: data.data,
+      frontmatter: { title, date, category, type, description },
+      date: JSON.stringify(data.data.date),
       markdownBody: data.content,
     },
   };

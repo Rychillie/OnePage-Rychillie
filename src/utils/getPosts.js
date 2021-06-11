@@ -9,12 +9,20 @@ const getPosts = (context) => {
     const value = values[index];
     const document = matter(value.default);
 
+    const title = document.data.title;
+    const date = JSON.stringify(document.data.date);
+    const category = document.data.category;
+    const type = document.data.type;
+    const description = document.data.description;
+
     return {
-      frontmatter: document.data,
+      frontmatter: { title, date, category, type, description },
+      date: JSON.stringify(document.data.date),
       markdownBody: document.content,
       slug,
     };
   });
+
   return data;
 };
 
