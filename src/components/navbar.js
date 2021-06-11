@@ -7,7 +7,7 @@ export default function Navbar({ manutencao, props }) {
       <div className={styles.container}>
         <Link href="/">
           <a className={styles.title}>
-            <h1>🦄 Rychillie</h1>
+            <h1>🦄 <span className={styles.name}>Rychillie</span></h1>
           </a>
         </Link>
 
