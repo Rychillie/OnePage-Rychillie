@@ -10,7 +10,9 @@ export default function PostList({ posts }) {
   const postList = posts;
 
   const newPostList = postList.sort(
-    (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
+    (a, b) =>
+      new Date(b.frontmatter.date.replace(/['"]+/g, "")) -
+      new Date(a.frontmatter.date.replace(/['"]+/g, ""))
   );
 
   return (
@@ -28,7 +30,7 @@ export default function PostList({ posts }) {
                 <a>
                   <CardPost
                     postDate={new Date(
-                      post.frontmatter.date instanceof Date
+                      post.frontmatter.date.replace(/['"]+/g, "")
                     ).toLocaleString("pt-BR", {
                       day: "2-digit",
                       month: "short",
