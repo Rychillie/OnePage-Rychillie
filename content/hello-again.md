@@ -12,7 +12,7 @@ I'm baby mumblecore green juice chambray cliche cred lyft, jean shorts la croix 
 
 Fixie next level prism gluten-free brunch PBR&B church-key cray tumblr try-hard butcher. Taxidermy shoreditch wayfarers hella succulents. Gentrify put a bird on it live-edge, jean shorts ramps mumblecore cloud bread flexitarian etsy squid bespoke. 90's taiyaki farm-to-table VHS XOXO enamel pin forage mumblecore pop-up.
 
-![Descrição de imagem](/postimages/rychillie-net.png "Titulo de imagem")
+![Rychillie escrito no meio da pagina](/postimages/rychillie-net.png "Rychillie Wallpaper")
 
 Cliche squid twee authentic. Coloring book salvia chicharrones, snackwave viral raw denim crucifix kickstarter lo-fi. Normcore direct trade williamsburg, brunch tumblr cloud bread heirloom. Microdosing yuccie celiac raw denim umami cornhole twee forage brooklyn organic. Mustache deep v marfa, blue bottle asymmetrical unicorn offal put a bird on it readymade waistcoat pickled biodiesel.
 
