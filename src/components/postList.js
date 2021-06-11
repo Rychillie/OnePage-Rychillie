@@ -20,7 +20,6 @@ export default function PostList({ posts }) {
         {newPostList &&
           newPostList.map((post) => {
             // newPostList.slice(0, 5).map((post) => {
-            console.log(post.frontmatter.date);
             return (
               <Link
                 href={{ pathname: `/${post.slug}` }}
