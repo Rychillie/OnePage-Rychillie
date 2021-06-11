@@ -15,7 +15,9 @@
   margin-bottom: 32px;
 }
 
-.content {
+.content img {
+  width: 100%;
+  height: auto;
 }
 
 .content > h1 {
