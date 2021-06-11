@@ -1,11 +1,13 @@
 ---
-title: Keffiyeh lumbersexual selvage, succulents snackwave PBR&B farm-to-table banh mi brunch readymade.
-date: 2020-01-09
+title: Keffiyeh lumbersexual selvage, succulents snackwave PBR&B farm-to-table banh
+  mi brunch readymade.
+date: 2020-01-09T01:00:00-02:00
 category: dica
 type: YouTube
-description: Cliche squid twee authentic. Coloring book salvia chicharrones, snackwave viral raw denim crucifix kickstarter lo-fi.
----
+description: Cliche squid twee authentic. Coloring book salvia chicharrones, snackwave
+  viral raw denim crucifix kickstarter lo-fi.
 
+---
 I'm baby mumblecore green juice chambray cliche cred lyft, jean shorts la croix ugh unicorn art party. Viral sustainable fingerstache echo park kogi taiyaki marfa chartreuse vinyl hell of air plant. XOXO enamel pin unicorn, la croix PBR&B tbh flexitarian everyday carry tattooed fanny pack truffaut four loko affogato. Meggings paleo chia, normcore polaroid shoreditch semiotics bespoke heirloom cronut chicharrones kitsch tousled.
 
 Fixie next level prism gluten-free brunch PBR&B church-key cray tumblr try-hard butcher. Taxidermy shoreditch wayfarers hella succulents. Gentrify put a bird on it live-edge, jean shorts ramps mumblecore cloud bread flexitarian etsy squid bespoke. 90's taiyaki farm-to-table VHS XOXO enamel pin forage mumblecore pop-up.
