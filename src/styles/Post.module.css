@@ -30,11 +30,12 @@
 }
 
 .content > div > * {
-  font-size: 22px;
+  font-size: 18px;
   line-height: 165%;
   font-weight: 400;
   color: var(--light-grey);
   font-family: Moderat;
+  margin-bottom: 8px;
 }
 
 @media (max-width: 600px) {
