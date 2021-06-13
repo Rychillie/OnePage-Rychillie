@@ -1,6 +1,8 @@
 import styles from "../styles/Header.module.css";
 import Image from "next/image";
 
+import Social from "./social";
+
 export default function Header({ manutencao, props }) {
   return (
     <header
@@ -40,6 +42,7 @@ export default function Header({ manutencao, props }) {
             conteúdo, compartilhando seu conhecimento com a comunidade.
           </p>
         </div>
+        <Social />
       </div>
     </header>
   );

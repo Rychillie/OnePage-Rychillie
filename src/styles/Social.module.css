@@ -1,0 +1,85 @@
+.social {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+ul.socialLinks {
+  list-style-type: none;
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+ul.socialLinks li {
+  margin-right: 16px;
+}
+
+ul.socialLinks li:last-child {
+  margin-right: 0;
+}
+
+ul.socialLinks li a {
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Moderat";
+  font-weight: bold;
+  color: var(--light);
+}
+
+ul.socialLinks li a:hover {
+  color: var(--red-pink);
+}
+
+ul.socialLinks li a:hover.twitter {
+  color: #00acee;
+}
+
+ul.socialLinks li a:hover.instagram {
+  background: #c13584;
+  background: -webkit-linear-gradient(
+    to right,
+    #405de6 0%,
+    #5851db 16%,
+    #833ab4 32%,
+    #c13584 64%,
+    #e1306c 80%,
+    #e1306c 100%
+  );
+  background: -moz-linear-gradient(
+    to right,
+    #405de6 0%,
+    #5851db 16%,
+    #833ab4 32%,
+    #c13584 64%,
+    #e1306c 80%,
+    #e1306c 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+ul.socialLinks li a:hover.github {
+  color: #fafafa;
+  opacity: 0.48;
+}
+
+ul.socialLinks li a:hover.linkedin {
+  color: #0e76a8;
+}
+
+@media (max-width: 960px) {
+  ul.socialLinks {
+    justify-content: center;
+  }
+}
