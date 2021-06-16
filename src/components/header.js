@@ -35,7 +35,18 @@ export default function Header({ manutencao, props }) {
         </div>
         <div className={styles.about}>
           <h1>
-            Olá 👋, eu sou <span>Rychillie</span>
+            Olá{" "}
+            <div className={styles.imageHello}>
+              <Image
+                src="/wave.gif"
+                alt="Hello Emoji"
+                width={32}
+                height={32}
+                loading="lazy"
+                layout="responsive"
+              />
+            </div>
+            , eu sou <span>Rychillie</span>
           </h1>
           <p>
             Desenvolvedor Frontend, estudante de UI/UX Design e criador de

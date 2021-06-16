@@ -24,17 +24,18 @@
   font-size: 36px;
   line-height: 140%;
   font-weight: bold;
-  font-family: GT Walsheim Pro;
+  font-family: "GT Walsheim Pro";
+  font-family: "GT Walsheim Pro";
   margin-bottom: 24px;
   color: var(--light);
 }
 
 .content > div > * {
   font-size: 18px;
-  line-height: 165%;
-  font-weight: 400;
+  line-height: 26px;
+  font-family: "Moderat";
+  font-weight: bold;
   color: var(--light-grey);
-  font-family: Moderat;
   margin-bottom: 8px;
 }
 
@@ -46,8 +47,9 @@
   }
 
   .content > div > * {
-    font-size: 18px;
-    line-height: 165%;
-    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Moderat";
+    font-weight: bold;
   }
 }

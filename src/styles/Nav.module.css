@@ -18,10 +18,11 @@
   justify-content: space-between;
 }
 
-.title h1, .title h1 .name {
+.title h1,
+.title h1 .name {
   font-size: 36px;
   line-height: 40px;
-  font-family: GT Walsheim Pro;
+  font-family: "GT Walsheim Pro";
   color: var(--red-pink);
 }
 
@@ -37,7 +38,7 @@
   font-size: 20px;
   line-height: 26px;
   padding: 8px 12px;
-  font-family: Moderat;
+  font-family: "Moderat";
 }
 
 .navLinks li a:hover {
@@ -45,7 +46,7 @@
 }
 
 @media screen and (max-width: 720px) {
-    .title h1 .name {
-        display: none;
-    }
+  .title h1 .name {
+    display: none;
+  }
 }

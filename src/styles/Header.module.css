@@ -71,6 +71,13 @@
   color: var(--red-pink);
 }
 
+.apresentation .about h1 .imageHello {
+  display: inline-block;
+  max-width: 64px;
+  width: 100%;
+  height: auto;
+}
+
 .apresentation .about p {
   color: var(--light-grey);
   font-size: 16px;
@@ -119,6 +126,10 @@
     font-size: 32px;
     line-height: 48px;
     margin-bottom: 16px;
+  }
+
+  .apresentation .about h1 .imageHello {
+    max-width: 32px;
   }
 
   .apresentation .about {
