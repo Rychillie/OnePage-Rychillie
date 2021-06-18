@@ -41,7 +41,7 @@
 }
 
 .apresentation .profile img {
-  border-radius: 76px;
+  border-radius: 32px;
 }
 
 .apresentation .profile .shadow {
@@ -113,7 +113,7 @@
 
   .apresentation .profile img,
   .apresentation.center .profile img {
-    border-radius: 56px;
+    border-radius: 32px;
   }
 
   .apresentation .shadow,

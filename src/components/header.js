@@ -22,16 +22,6 @@ export default function Header({ manutencao, props }) {
             loading="lazy"
             layout="responsive"
           />
-          <div className={styles.shadow}>
-            <Image
-              src="/rychillie.png"
-              alt="Rychillie Umpierre de Oliveira"
-              width={220}
-              height={220}
-              loading="lazy"
-              layout="responsive"
-            />
-          </div>
         </div>
         <div className={styles.about}>
           <h1>
